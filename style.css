@@ -1,0 +1,30 @@
+
+.container{
+    background-color: #00A9FF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 160px;
+    height: 170px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+ background-color: #1640D6;
+ width: 30px;
+ height:30px;
+ border-radius: 5px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 5px;
+ color: white;
+}
+.screen{
+    background-color:aliceblue;
+    height:30px;
+    grid-column: span 4;
+    border-radius: 3px;
+    margin: 5px;
+}
